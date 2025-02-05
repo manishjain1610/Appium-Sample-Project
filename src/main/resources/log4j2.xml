@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%5p [%t] (%F:%L)- %m%n" />
+        </Console>
+
+        <!-- Rolling File Appender for HerokuApplogfile -->
+        <RollingFile name="RollingFileAppender1" fileName="./logs/AndroidNativeApplogfile.log" filePattern="./logs/AndroidNativeApplogfile-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout pattern="%d - %c -%p - %m%n" />
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB" />
+            </Policies>
+        </RollingFile>
+
+        <!-- Rolling File Appender for application.log -->
+        <RollingFile name="RollingFileAppender2" fileName="./logs/application.log" filePattern="./logs/application-%i.log">
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="10" />
+        </RollingFile>
+
+        <!-- File Appender for application.html -->
+        <File name="HtmlFileAppender" fileName="./logs/application.html" append="false">
+            <HTMLLayout title="Application log" locationInfo="true" />
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!-- Root Logger -->
+        <Root level="info">
+            <AppenderRef ref="ConsoleAppender" />
+            <AppenderRef ref="RollingFileAppender1" />
+            <AppenderRef ref="RollingFileAppender2" />
+            <AppenderRef ref="HtmlFileAppender" />
+        </Root>
+    </Loggers>
+</Configuration>

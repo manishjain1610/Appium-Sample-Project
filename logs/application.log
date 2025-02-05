@@ -1,0 +1,29 @@
+2025-02-04 20:49:33,050 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-04 20:49:33,055 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-04 20:49:33,055 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-04 20:49:33,056 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-04 20:49:33,057 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-04 20:49:33,057 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-04 20:49:33,059 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-04 20:49:33,059 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-04 20:49:33,059 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-04 20:49:33,060 [main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-04 20:49:33,065 [main] INFO org.testng.internal.Utils - [TestNG] Running:
+  D:\Manish\IntelliJProjects\tests\Appium-Sample-Project\testng.xml
+
+2025-02-04 20:49:33,080 [main] INFO org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-02-04 20:49:33,086 [main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@71c3b41: 0 ms
+The Maven Profile is missing the platform configuration.
+The default platform 'android' will be enabled for this run.
+The Maven Profile is missing the environment configuration.
+The default environment 'qa' will be enabled for this run.
+2025-02-04 20:58:00,039 [main] INFO org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Manish Jain\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+The Maven Profile is missing the platform configuration.
+The default platform 'android' will be enabled for this run.
+The Maven Profile is missing the environment configuration.
+The default environment 'qa' will be enabled for this run.
+2025-02-04 20:59:35,223 [main] INFO org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Manish Jain\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+

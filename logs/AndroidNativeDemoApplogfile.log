@@ -1,0 +1,21 @@
+2025-02-04 20:49:33,050 - org.testng.internal.Utils -INFO - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-04 20:49:33,055 - org.testng.internal.Utils -INFO - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-04 20:49:33,055 - org.testng.internal.Utils -INFO - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-04 20:49:33,056 - org.testng.internal.Utils -INFO - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-04 20:49:33,057 - org.testng.internal.Utils -INFO - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-04 20:49:33,057 - org.testng.internal.Utils -INFO - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-04 20:49:33,059 - org.testng.internal.Utils -INFO - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-04 20:49:33,059 - org.testng.internal.Utils -INFO - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-04 20:49:33,059 - org.testng.internal.Utils -INFO - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-04 20:49:33,060 - org.testng.internal.Utils -INFO - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-04 20:49:33,065 - org.testng.internal.Utils -INFO - [TestNG] Running:
+  D:\Manish\IntelliJProjects\tests\Appium-Sample-Project\testng.xml
+
+2025-02-04 20:49:33,080 - org.testng.internal.Utils -INFO - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-02-04 20:49:33,086 - org.testng.internal.Utils -INFO - [TestNG] Time taken by org.testng.internal.ExitCodeListener@71c3b41: 0 ms
+2025-02-04 20:58:00,039 - org.testng.internal.Utils -INFO - [TestNG] Running:
+  C:\Users\Manish Jain\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-02-04 20:59:35,223 - org.testng.internal.Utils -INFO - [TestNG] Running:
+  C:\Users\Manish Jain\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+

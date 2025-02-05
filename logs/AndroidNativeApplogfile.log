@@ -1,0 +1,8 @@
+2025-02-04 20:57:59,901 - appium.nativeDemoApp.config.CommonConfig -WARN - The Maven Profile is missing the platform configuration.
+2025-02-04 20:57:59,920 - appium.nativeDemoApp.config.CommonConfig -WARN - The default platform 'android' will be enabled for this run.
+2025-02-04 20:57:59,921 - appium.nativeDemoApp.config.CommonConfig -WARN - The Maven Profile is missing the environment configuration.
+2025-02-04 20:57:59,922 - appium.nativeDemoApp.config.CommonConfig -WARN - The default environment 'qa' will be enabled for this run.
+2025-02-04 20:59:35,136 - appium.nativeDemoApp.config.CommonConfig -WARN - The Maven Profile is missing the platform configuration.
+2025-02-04 20:59:35,145 - appium.nativeDemoApp.config.CommonConfig -WARN - The default platform 'android' will be enabled for this run.
+2025-02-04 20:59:35,147 - appium.nativeDemoApp.config.CommonConfig -WARN - The Maven Profile is missing the environment configuration.
+2025-02-04 20:59:35,148 - appium.nativeDemoApp.config.CommonConfig -WARN - The default environment 'qa' will be enabled for this run.
