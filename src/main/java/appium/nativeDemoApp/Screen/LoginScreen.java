@@ -1,5 +1,5 @@
 package appium.nativeDemoApp.Screen;
-import io.appium.java_client.AppiumBy;
+// import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.WebDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;

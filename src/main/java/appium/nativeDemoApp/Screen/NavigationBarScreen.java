@@ -1,5 +1,5 @@
 package appium.nativeDemoApp.Screen;
-// import io.appium.java_client.AppiumBy;
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.WebDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -51,5 +51,6 @@ public class NavigationBarScreen extends BaseScreen {
         tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
         tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
         ((AppiumDriver) driver).perform(List.of(tap));
+
     }
 }
