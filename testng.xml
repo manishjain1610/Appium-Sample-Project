@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-<!--	<listeners>
+	<listeners>
 		<listener class-name="appium.nativeDemoApp.util.ExtentReportService" />
-	</listeners>	-->
-	<test verbose="2" preserve-order="true" name="D:/Manish/IntelliJProjects/tests/Appium-Sample-Project/src/test/java/appium/nativeDemoApp/BaseTest.java">
-		<classes/>
+	</listeners>
+	<test verbose="2" preserve-order="true" name="D:/Manish/IntelliJProjects/tests/Appium-Sample-Project/src/test/java/appium/nativeDemoApp">
+		<classes>
+			<class name="appium.nativeDemoApp.LoginTest">
+				<methods>
+					<include name="testValidLogin"/>
+				</methods>
+			</class>
+			<class name="appium.nativeDemoApp.SignupTest">
+				<methods>
+					<include name="testSignup"/>
+				</methods>
+			</class>
+			<class name="appium.nativeDemoApp.SwipeTest">
+				<methods>
+					<include name="testYouFoundMeLogo"/>
+				</methods>
+			</class>
+		</classes>
 	</test>
 </suite>

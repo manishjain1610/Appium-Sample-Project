@@ -20,8 +20,9 @@ import static appium.nativeDemoApp.config.ReporterConfig.*;
 import static appium.nativeDemoApp.util.driver.MobileDriverHolder.getDriver;
 import static com.aventstack.extentreports.reporter.configuration.ViewName.*;
 import static org.testng.ITestResult.*;
+import org.testng.TestListenerAdapter;
 
-public class ExtentReportService {
+public class ExtentReportService extends TestListenerAdapter {
     private static final ExtentReports extentReports = new ExtentReports();
     public static final String FILE_SEPARATOR = File.separator;
     private static final Logger logger = LogManager.getLogger();
